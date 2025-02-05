@@ -28,4 +28,8 @@ noBtn.addEventListener("mouseover", () => {
 
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
+
+    noBtn.addEventListener("click", () => {
+        noBtn.innerHTML = "chọn sai rùi";
+    });
 });

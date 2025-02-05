@@ -39,7 +39,7 @@ body {
 .btn-group {
     display: flex;
     justify-content: space-around;
-    gap: 150px;
+    gap: 20px; /* Adjust gap as needed */
 }
 
 button {
@@ -68,7 +68,6 @@ button:focus {
 }
 
 .no-btn {
-    position: absolute;
     background-color: #ff4d4d;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
