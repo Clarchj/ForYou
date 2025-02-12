@@ -5,8 +5,8 @@ const gif = document.querySelector(".gif");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Nhưng vẫn chúc em hạnh phúc";
-    // gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTNrN2ZmenZ2NXB3YjZyaTI5Z3Q2bjRkcmYwOTlmZ3c1eXcyNnJ2ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9ZsHoKnjg4ykx3mzTR/giphy.gif";
+    question.innerHTML = "Yay, I'll pick you up at 7! <br> &#128522 DM me your address &#128522";
+    gif.src = "https://media.giphy.com/media/Hb6RoJcYEqkKlPoCj2/giphy.gif?cid=ecf05e47h56jx302p9j3g50563qqbgn00hn1uaflit0tlbn5&ep=v1_gifs_related&rid=giphy.gif&ct=g";
 
     // Hide the No button
     noBtn.style.display = "none";
@@ -30,6 +30,6 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.top = randomY + "px";
 
     noBtn.addEventListener("click", () => {
-        noBtn.innerHTML = "chọn sai rùi";
+        noBtn.innerHTML = "Pleaseeee";
     });
 });
